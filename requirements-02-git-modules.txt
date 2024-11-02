@@ -1,0 +1,4 @@
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+git+https://github.com/NVlabs/nvdiffrast.git
+git+https://github.com/ashawkey/envlight.git
+git+https://github.com/openai/CLIP.git

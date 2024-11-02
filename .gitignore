@@ -165,6 +165,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Backup files
+*.bak
+*.orig
+
+# Temporary files
+tmp/
+tmp[-.]*
+*.tmp
+
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 poetry.toml
@@ -196,3 +205,6 @@ wandb/
 custom/*
 
 load/tets/256_tets.npz
+
+# Git repos cloned locally
+nerfacc/
